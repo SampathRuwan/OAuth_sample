@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+
+<meta charset="ISO-8859-1">
+<title>Photo Viewer</title>
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+  <div style="text-align:center">
+		<h3>FaceBook Photo Viewer</h3>
+		</div>	
+		<!--  <div style="text-align:center">
+		<img src="https://marketingland.com/wp-content/ml-loads/2016/11/facebook-users-people-diversity1-ss-1920.jpg" width="628" height="353">
+		</div>-->
+		
+	<!-- requesting authorization code -->
+	<div style="text-align:center">
+		<form method="GET" action="/redirect"  class="container">
+		<br>
+			<button type="submit" class="btn btn-primary" style="text-align:center" >Show Photos</button>
+		</form>
+		</div>	
+	</div>		
+</body>
+</html>
